@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>http://example.org/aboutus/founder/</loc>
+    <lastmod>2017-12-26T14:03:32+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/aboutus/</loc>
     <lastmod>2017-12-26T14:03:01+08:00</lastmod>
   </url>
