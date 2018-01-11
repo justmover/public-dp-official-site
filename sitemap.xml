@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/lifegrow/workshop/sample-event/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/payloveforward/dp339movie/4th/</loc>
   </url>
   
@@ -110,6 +114,11 @@
   
   <url>
     <loc>http://example.org/aboutus/team/king_law/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/lifegrow/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

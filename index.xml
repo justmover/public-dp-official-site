@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>This is sample event</title>
+      <link>http://example.org/lifegrow/workshop/sample-event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/lifegrow/workshop/sample-event/</guid>
+      <description>This sample event showed the format of the md file.
+This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file.</description>
+    </item>
+    
+    <item>
       <title>第四屆香港感恩日</title>
       <link>http://example.org/payloveforward/dp339movie/4th/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
