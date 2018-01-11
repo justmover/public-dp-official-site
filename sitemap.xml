@@ -19,6 +19,10 @@
   </url>
   
   <url>
+    <loc>http://example.org/media/radio/881/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/payloveforward/dp339movie/</loc>
   </url>
   
@@ -35,11 +39,23 @@
   </url>
   
   <url>
+    <loc>http://example.org/media/tv/881/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/media/tv/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/coachtoserve/coachtoserve/</loc>
   </url>
   
   <url>
     <loc>http://example.org/payloveforward/dpcny/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/media/radio/metroradio/</loc>
   </url>
   
   <url>
@@ -51,7 +67,7 @@
   </url>
   
   <url>
-    <loc>http://example.org/contactus/calendar/</loc>
+    <loc>http://example.org/media/tv/metroradio/</loc>
   </url>
   
   <url>
@@ -90,6 +106,15 @@
   
   <url>
     <loc>http://example.org/contactus/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/aboutus/team/king_law/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/media/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
