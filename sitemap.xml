@@ -43,6 +43,10 @@
   </url>
   
   <url>
+    <loc>http://example.org/contactus/calendar/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/aboutus/intro/</loc>
     <lastmod>2017-12-26T14:03:01+08:00</lastmod>
   </url>
@@ -69,6 +73,11 @@
   
   <url>
     <loc>http://example.org/coachtoserve/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contactus/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
