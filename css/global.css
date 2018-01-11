@@ -1,18 +1,32 @@
 /* Style the tab */
-.dp-background-green{
+
+.dp-background-green {
     background-color: #00A74F;
 }
 
-.dp-font-green{
-    color:#006738;
+.dp-font-green {
+    color: #006738;
+}
+
+.dp-font-lightGreen {
+    color: #00A74F;
 }
 
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #33cc99;
-    ;
     text-align: center;
+    width: 100%;
+    height: 3.5rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -22,15 +36,17 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    margin: 14px 16px;
     transition: 0.3s;
     display: inline-block;
+    color: white;
 }
 
 /* Change background color of buttons on hover */
 
 .tab button:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
+    border-bottom: white 3px solid;
 }
 
 /* Create an active/current tablink class */
@@ -49,12 +65,15 @@
 }
 
 /* Text align at center */
-.textcenter{
+
+.textcenter {
     text-align: center;
 }
 
 .home-template {}
-
+.light-green-background {
+    background: #00A74F;
+}
 .green-background {
     background: #174931;
 }
@@ -64,7 +83,13 @@
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: bold !important;
+}
+
+.content-title {
+    font-size: 28px !important;
+    text-align: center;
+    color: #006738 !important;
 }
 
 .table-padding {
@@ -80,10 +105,12 @@
 }
 
 .text-overlay {
+    font-size: 1.5rem;
     position: absolute;
-    top: 50%;  /* position the top  edge of the element at the middle of the parent */
-    left: 50%; /* position the left edge of the element at the middle of the parent */
-
+    top: 50%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
     transform: translate(-50%, -50%);
     z-index: 100;
     color: white;
@@ -93,39 +120,374 @@
     opacity: 0.7;
 }
 
-.carousel-indicators-style{
+.carousel-indicators-style {
     border-radius: 15px;
     height: 20px !important;
     max-width: 20px !important;
 }
 
-.content-gradient-background{
+.content-gradient-background {
     background: #ffffff;
     background: -moz-linear-gradient(left, #ffffff 0%, #96e8a8 50%, #ffffff 100%);
-    background: -webkit-linear-gradient(left, #ffffff 0%,#96e8a8 50%,#ffffff 100%);
-    background: linear-gradient(to right, #ffffff 0%,#96e8a8 50%,#ffffff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+    background: -webkit-linear-gradient(left, #ffffff 0%, #96e8a8 50%, #ffffff 100%);
+    background: linear-gradient(to right, #ffffff 0%, #96e8a8 50%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
 }
-.carousel-control-left{
+
+.carousel-control-left {
     border-bottom-right-radius: 100px;
     border-top-right-radius: 100px;
     background-color: black;
     width: 100%;
     height: 4%;
 }
-.carousel-control-right{
+
+.carousel-control-right {
     border-bottom-left-radius: 100px;
     border-top-left-radius: 100px;
     background-color: black;
     width: 100%;
     height: 4%;
-
 }
 
-.title-gradient-background{
+.title-gradient-background {
     background: #ffffff;
     background: -moz-linear-gradient(left, #ffffff 0%, #0CA64E 40%, #0CA64E 60%, #ffffff 100%);
-    background: -webkit-linear-gradient(left, #ffffff 0%,#0CA64E 40%,#0CA64E 60%,#ffffff 100%);
-    background: linear-gradient(to right, #ffffff 0%,#0CA64E 40%,#0CA64E 60%,#ffffff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+    background: -webkit-linear-gradient(left, #ffffff 0%, #0CA64E 40%, #0CA64E 60%, #ffffff 100%);
+    background: linear-gradient(to right, #ffffff 0%, #0CA64E 40%, #0CA64E 60%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+}
+
+.title-life-dotted {
+    color: #00A74F;
+    padding: 10px;
+    background-image: linear-gradient(to right, #00A74F 25%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right, #00A74F 25%, rgba(255, 255, 255, 0) 0%);
+    background-position: top, bottom;
+    background-size: 14px 3px;
+    background-repeat: repeat-x;
+}
+
+.course-img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.course-flower {
+    background-image: url("/img/flower.png");
+    background-repeat: no-repeat;
+    background-position: 90% -60px;
+}
+/* close icon */
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+/* fixed top menu */
+.mobile-menu-background{
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 105 !important;
+    background: rgba(45, 68, 62, 0.445)
+}
+.mobile-menu-arrow{
+    font-size: 2rem;
+    color: white;
+}
+.mobile-showMenu{
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 110;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.mobile-menu-title{
+    font-size:26px;
+    color: white;
+    padding: 2.5% 0;
+    font-weight: bold;
+}
+.mobile-menu-text{
+    font-size:20px;
+    color: white;
+}
+.mobile-columns-title{
+    margin:0 !important;    
+    width: 100%;
+}
+.mobile-nav{
+    display: none;
+}
+@media screen and (max-width: 770px) {
+    .desktop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .desktop-footer{
+        display: none;
+    }
+    #sub-menu-sticker-sticky-wrapper{display: none;}
+    .tab{display: none;}
+  }
+
+
+.showMenu {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+.top-banner-bg-pic {
+    display: block;
+    height: 340px;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+.top-banner-bg-aboutus {
+    background-image: url(/img/topbanner_aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-course {
+    background-image: url(/img/topbanner_course.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-lifegrow {
+    background-image: url(/img/topbanner_lifegrow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-paylove-forward {
+    background-image: url(/img/topbanner_paylove_forward.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-media {
+    background-image: url(/img/topbanner_media.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-coachtoserve {
+    background-image: url(/img/topbanner_coachtoserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-bg-contact {
+    background-image: url(/img/topbanner_contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-banner-white-bird {
+    position: absolute;
+    top: 2.5rem;
+    left: 42vw;
+    left: calc(50vw - 80px);
+}
+
+.top-banner-words {
+    position: absolute;
+    top: 6rem;
+    left: 49%;
+    writing-mode: vertical-lr;
+}
+
+.top-banner-words-eng {
+    position: absolute;
+    top: 8rem;
+    left: 38vw;
+    left: calc(50vw - 120px);
+}
+
+.top-banner-words-size {
+    font-size: 28px;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+}
+
+.course-content {
+    margin: 0% 35% 0%;
+}
+
+.nopadding {
+    padding: 0%
+}
+
+.founder-column {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+}
+.workshop-detail-button{
+    margin:10% 0% 5% !important;
+    padding:0% 20% !important;
+    color:white !important;
+    background-color:#006738 !important;
+}
+
+.founder-column-title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.founder-read {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    margin: 0 30%
+}
+
+.founder-letter-title {
+    font-weight: bold !important;
+    font-size: 16px !important;
+    text-align: center !important;
+}
+
+.founder-letter p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.faq li {
+    padding: 20px;
+}
+
+.faq li.q {
+    background: #4FC2;
+    font-weight: bold;
+    font-size: 120%;
+    border-bottom: 1px #ddd solid;
+    cursor: pointer;
+}
+
+.faq li.a {
+    display: none;
+    color: black;
+}
+
+.rotate {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.lifegrow-vertically-aligned{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.workshop-img-overlay{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    color:white !important;
+    opacity:0.7;
+    width:100%;
+    height:100%;
+    font-size: 28px;
+    text-align:center;
+    padding-top: 20%;
+}
+
+.course-button{
+    background:#00A5A4; 
+    border:none; 
+    color:white;
+    font-size:26px;
+    padding:5px 30px;
+    cursor: pointer;
+}
+
+.timetable div{
+    padding: 2px;
+   
+}
+
+.timetable div.h{
+    display: none;
+}
+.timetable div.s{
+    display: inline;
+}
+
+/* contact css */
+.contact-text{
+    font-size: 14px;
+}
+.contact-placeholder:placeholder-shown{
+    padding: 2.5%
+}
+.contact-column{
+    font-size: 18px;
+    padding: 0.5% !important;
+}
+.contact-submit{
+    border: none;
+    background: #174931; 
+    color: white; 
+    width: 40%;
+}
+
+#contact-map {
+    height: 395px;
+    width: 100%;
+}
+
+.overflow{
+    overflow: auto;
+}
+
+.courseTitle-button{
+    background-color:#0CA64E  !important;
+    height:100%;
+    padding:10px;
+    margin:0px  !important;
 }

@@ -38,81 +38,363 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
 <body class="home-template">
-    <header id="site-head">
+    
+<div class="desktop-nav">
+	<div style="height:72px"></div>
+	<div style="position:fixed; height: 72px; width:100%; top:0; background:white; z-index: 101;">
+		<div style="height: 72px; line-height: 72px; width:100%; text-align:center;">
+			
+			<div class="desktop-hamburger" style="position:absolute; left:1%">
+				<img src="/img/hamburger.svg">
+			</div>
+			
+
+
+			<div style="height: 100%; width: 80%; position:  absolute; margin:0 10%;">
+				<a href="http://example.org/">
+					<img style="height:80%" src="/img/logo.svg">
+				</a>
+			</div>
+			<div style="float: right; vertical-align: middle; padding: 0 2% 0 0">
+				<img style="height:50%" src="/img/fb_icon.svg">
+			</div>
+			<div style="float: right; vertical-align: middle; padding: 0 0.5%">
+				<img style="height:50%" src="/img/youtube_icon.svg">
+			</div>
+
+		</div>
+		<div class="desktop-showMenu" style="display: none;">
+			 
+<div class="menu green-background" style="height: 100%" role="nav">
+    <div class="columns" style="margin: 0 10%">
+           
+          
+        <div class="nav column" style="padding: 0">
+            <a href="/aboutus/intro/" style="width: 100%">
+                <div style="position: relative">
+                    <b class="text-overlay">關 於 我 們</b>
+                    <div class="menu-image" >                        
+                        <img width="100%" src="http://example.org//img/aboutus_btn.jpg">
+                    </div>
+                </div>
+            </a>
+        </div>
+
+                      
+                      
+                      
+                  
+        <div class="nav column" style="padding: 0">
+            <a href="/payloveforward/dp339movie/" style="width: 100%">
+                <div style="position: relative">
+                    <b class="text-overlay">Pay love forward</b>
+                    <div class="menu-image" >                        
+                        <img width="100%" src="http://example.org//img/payloveforward_btn.jpg">
+                    </div>
+                </div>
+            </a>
+        </div>
+
+              
+                      
+                      
+                   
+    </div>
+
+</div>
+
+		</div>
+	</div>
+</div>
+<div class="mobile-nav" style="position:relative">
+	<div style="height:72px"></div>
+	<div style="position:fixed; height: 72px; width:100%; top:0; background:white; z-index: 101;">
+		<div style="height: 72px; line-height: 72px; width:100%; text-align:center;">
+			
+			<div class="mobile-hamburger" style="position:absolute; left:1%">
+				<img src="/img/hamburger.svg">
+			</div>
+			
+
+
+			<div style="height: 100%; width: 80%; position:  absolute; margin:0 10%;">
+				<a href="http://example.org/">
+					<img style="height:80%" src="/img/logo.svg">
+				</a>
+			</div>
+			
+
+		</div>
+		
+	</div>
+		<div class="mobile-showMenu light-green-background" style="display: none;">
+			
+			
+			 
+			<div >
+
+		
+				
+				
+				
+					
+					
+					
+				<div id="aboutus" class="mobile-columns-toggle level is-mobile mobile-columns-title" style="box-shadow: 4px 1px 20px 0px white">
+					
+					
+						<div class="level-item" style="padding: 0">						
+							<div class="mobile-menu-title">關 於 我 們</div>		
+						</div>
+					
+					
+					
+					
+					<div id="mobile-aboutus-down" class="level-item is-narrow">
+						<i class="fa fa-angle-down mobile-menu-arrow" aria-hidden="true"></i>
+					</div>
+					<div id="mobile-aboutus-up" class="level-item is-narrow" style="display:none">
+						<i class="fa fa-angle-up mobile-menu-arrow" aria-hidden="true"></i>
+					</div>
+					
+					
+				</div>
+				
+				<div id="mobile-aboutus-sub-menu" class="mobile-sub-menu">
+					
+					
+					
+					<div class="green-background" style="padding: 5% 0">
+						<div class="columns" style="width:100%">
+							<div class="column is-narrow" style="text-align: left; padding: 2% 0 0 30%;">
+								<a href="/aboutus/intro/">
+									<b class ="mobile-menu-text">自在社</b>
+								</a>
+							</div>
+						</div> 
+					</div>
+					
+					<div class="green-background" style="padding: 5% 0">
+						<div class="columns" style="width:100%">
+							<div class="column is-narrow" style="text-align: left; padding: 2% 0 0 30%;">
+								<a href="/aboutus/team/">
+									<b class ="mobile-menu-text">董事局與總幹事團隊</b>
+								</a>
+							</div>
+						</div> 
+					</div>
+					
+					
+				</div>		
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+					
+					
+				<div id="payloveforward" class="mobile-columns-toggle level is-mobile mobile-columns-title" style="box-shadow: 4px 1px 20px 0px white">
+					
+					
+						<div class="level-item" style="padding: 0">						
+							<div class="mobile-menu-title">Pay love forward</div>		
+						</div>
+					
+					
+					
+					
+					<div id="mobile-payloveforward-down" class="level-item is-narrow">
+						<i class="fa fa-angle-down mobile-menu-arrow" aria-hidden="true"></i>
+					</div>
+					<div id="mobile-payloveforward-up" class="level-item is-narrow" style="display:none">
+						<i class="fa fa-angle-up mobile-menu-arrow" aria-hidden="true"></i>
+					</div>
+					
+					
+				</div>
+				
+				<div id="mobile-payloveforward-sub-menu" class="mobile-sub-menu">
+					
+					
+					
+					<div class="green-background" style="padding: 5% 0">
+						<div class="columns" style="width:100%">
+							<div class="column is-narrow" style="text-align: left; padding: 2% 0 0 30%;">
+								<a href="/payloveforward/dp339movie/">
+									<b class ="mobile-menu-text">感恩日</b>
+								</a>
+							</div>
+						</div> 
+					</div>
+					
+					<div class="green-background" style="padding: 5% 0">
+						<div class="columns" style="width:100%">
+							<div class="column is-narrow" style="text-align: left; padding: 2% 0 0 30%;">
+								<a href="/payloveforward/dpcny/">
+									<b class ="mobile-menu-text">年宵義賣</b>
+								</a>
+							</div>
+						</div> 
+					</div>
+					
+					
+				</div>		
+					
+				
+		
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		
+			<div>
+				<a style="position:fixed; left:85%; top:2.5%; background:white; z-index: 101;" class="mobile-hamburger close"></a>	
+			</div>
+		</div>
+		
+		<div class="mobile-columns-title" style="text-align: center; background: #47BFB1">
+			<div class="mobile-menu-title"> <img style="filter: brightness(0) invert(1);" src="/img/course_icon.png"> 賽 馬 會 青 年 更 新 <br> 教 練 計 劃</div>
+		</div>
+		<div class="columns is-mobile is-centered is-variable is-3" style="margin:0">
+			<div class="column is-4" >
+				<img style="width:100%" src="/img/fb_icon.svg">
+			</div>
+			<div class="column is-4" >
+				<img style="width:100%" src="/img/youtube_icon.svg">
+			</div>
+		</div>
+	</div>
 	
-	<h1 class="blog-title"><a href="http://example.org/">自在社</a></h1>
+	<div class="mobile-menu-background mobile-hamburger"> 
+	</div>
 	
 	
-	<h1 class="blog-subtitle">幸福/從感恩開始</h1>
-	
-</header>
+</div>
+
      
 <div class="menu green-background" style="height: 100%" role="nav">
-    <div class="row" style="padding: 0 10%">
-            
-					
-					
-					
-                        
-                            
-            <div class="nav col-2" style="padding: 0">
-                <a href="/aboutus/intro/" style="width: 100%">
-                    <div class="menu-image" style="position: relative">
-                        <b class="text-overlay" style="font-size:16px">關 於 我 們</b>
-                        <img width="100%" src="img/aboutus_btn.jpg">
+    <div class="columns" style="margin: 0 10%">
+           
+          
+        <div class="nav column" style="padding: 0">
+            <a href="/aboutus/intro/" style="width: 100%">
+                <div style="position: relative">
+                    <b class="text-overlay">關 於 我 們</b>
+                    <div class="menu-image" >                        
+                        <img width="100%" src="http://example.org//img/aboutus_btn.jpg">
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
+        </div>
 
-                            
-                        
-                    
-                        
-                    
-            
-					
-					
-					
-                        
-                    
-                        
-                    
-            
-					
-					
-					
-                        
-                    
-                        
-                    
-            
-					
-					
-					
-                        
-                    
-                        
-                    
-            
-					
-					
-					
-                        
-                    
-                        
-                    
-            
-					
-					
-					
-                        
-                    
-                        
-                    
-            
+                      
+                      
+                      
+                  
+        <div class="nav column" style="padding: 0">
+            <a href="/payloveforward/dp339movie/" style="width: 100%">
+                <div style="position: relative">
+                    <b class="text-overlay">Pay love forward</b>
+                    <div class="menu-image" >                        
+                        <img width="100%" src="http://example.org//img/payloveforward_btn.jpg">
+                    </div>
+                </div>
+            </a>
+        </div>
+
+              
+                      
+                      
+                   
     </div>
 
 </div>
@@ -128,101 +410,169 @@
 
     </main>
 
-    	<div class="menu green-background" role="nav" style="border: none; padding: 5% 15%; height:100%">
-		<table style="text-align:left; table-layout: fixed; margin: 0">
-			<tr class="no-border">
+    	<div class="desktop-footer menu green-background" role="nav" style="border: none; padding: 5% 15%; height:100%">
+		<div class="columns is-centered" style="text-align:left; table-layout: fixed; margin: 0;width: 100%">
+			
+			
+			
+			
 				
 				
 				
 					
-					
-					
-						
-				<td style="padding:0; vertical-align: top; border-right: 1px solid white">
-					<table style="margin: 0">
-						<tr class="nav">
-							<td>
-								<span style="color: white" class="bold">關 於 我 們</span>
-							</td>
-						</tr>
-							
-							<tr class="no-border">
-							<td class="nav-current green-background" style="word-wrap: break-word">
-								<a style="color: white" href="/aboutus/intro/">自在社</a>
-							</td>
-						</tr>
-							
-							<tr class="no-border">
-							<td class="nav-current green-background" style="word-wrap: break-word">
-								<a style="color: white" href="/aboutus/team/">董事局與總幹事團隊</a>
-							</td>
-						</tr>
-							
-					</table>
-						
-					
-						
-					
-				</td>
-				
-					
-					
-					
-						
-					
-						
-					
-				</td>
-				
-					
-					
-					
-						
-					
-						
-					
-				</td>
-				
-					
-					
-					
-						
-					
-						
-					
-				</td>
-				
-					
-					
-					
-						
-					
-						
-					
-				</td>
-				
-					
-					
-					
-						
-					
-						
-					
-				</td>
-				
-			</tr>
-		</table>
-	</nav>
+			<div class="column is-narrow" style="padding:0; vertical-align: top; border-right: 1px solid white">
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column is-narrow">
+						<span style="color: white" class="bold">關 於 我 們</span>
+					</div>
+				</div>
 
+				
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column">
+						<a style="color: white" href="/aboutus/intro/">自在社</a>
+					</div>	
+				</div>
+				
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column">
+						<a style="color: white" href="/aboutus/team/">董事局與總幹事團隊</a>
+					</div>	
+				</div>
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</div>
+			
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</div>
+			
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</div>
+			
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+			<div class="column is-narrow" style="padding:0; vertical-align: top; border-right: 1px solid white">
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column is-narrow">
+						<span style="color: white" class="bold">Pay love forward</span>
+					</div>
+				</div>
 
+				
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column">
+						<a style="color: white" href="/payloveforward/dp339movie/">感恩日</a>
+					</div>	
+				</div>
+				
+				<div class="columns" style="margin: 0; width: 100%;">
+					<div class="column">
+						<a style="color: white" href="/payloveforward/dpcny/">年宵義賣</a>
+					</div>	
+				</div>
+				
+				
+					
+				
+			</div>
+			
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</div>
+			
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</div>
+			
+				
+				
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</div>
+			
+			
+		</div>
+	</div>
 
-
-</footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="http://example.org/js/index.js"></script>
-<script src="http://example.org/js/smooth-scroll.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-
+<script src="http://example.org/%20js/index.js%20"></script>
+<script src="http://example.org/%20js/smooth-scroll.min.js%20"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script> 
 
 <script>
     smoothScroll.init({
@@ -231,8 +581,140 @@
         updateURL: false,
         offset: 125,
     });
+
 </script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    hljs.initHighlightingOnLoad();
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".desktop-showMenu").hide();
+        $(".desktop-hamburger").click(function () {
+            $(".desktop-showMenu").slideToggle("slow");
+        });
+
+        $(".mobile-showMenu").hide();
+        $(".mobile-menu-background").hide();
+        $(".mobile-hamburger").click(function () {
+            $(".mobile-showMenu").toggle("slide");
+            $(".mobile-menu-background").toggle();
+        });
+
+        $(".mobile-sub-menu").hide();
+
+        $(".mobile-columns-toggle").click(function (e) {
+            console.log("test");
+            console.log(e.target.id);
+            var id = e.target.id;
+            if (id == "") {
+                id = e.target.parentElement.id;
+                console.log(id.substring(0,6));
+                if (id == "" || id.substring(0,6) == "mobile") {
+                    id = e.target.parentElement.parentElement.id;
+                }
+
+            }
+
+            $("#mobile-" + id + "-sub-menu").slideToggle("fast");
+            $("#mobile-" + id + "-down").toggle();
+            $("#mobile-" + id + "-up").toggle();
+        }
+        )
+
+    });
+    function toggleSubMenu(id) {
+        console.log(id);
+        var subMenu = document.getElementById("mobile-" + id + "-sub-menu");
+        var down = document.getElementById("mobile-" + id + "-down");
+        var up = document.getElementById("mobile-" + id + "-up");
+
+        if (subMenu.style.display === "none") {
+            subMenu.style.display = "block";
+        } else {
+            subMenu.style.display = "none";
+        }
+
+        if (up.style.display === "none") {
+            up.style.display = "block";
+        } else {
+            up.style.display = "none";
+        }
+
+        if (down.style.display === "none") {
+            down.style.display = "block";
+        } else {
+            down.style.display = "none";
+        }
+    }
+</script>
+
+<script>
+    $(window).ready(function () {
+        $("#sub-menu-sticker").sticky({ topSpacing: 72, center: true, zIndex: 100 });
+    });
+
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77064016-5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-77064016-5');
+
+</script>
+
+
+<script>
+    var action = 'click';
+    var speed = "500";
+    $(document).ready(function () {
+
+        $('li.q').on(action, function () {
+
+            $(this).next().slideToggle(speed)
+
+
+                .siblings('li.a').slideUp();
+
+            
+            var img = $(this).children('img');
+
+            
+            $('img').not(img).removeClass('rotate');
+
+            
+            img.toggleClass('rotate');
+        });
+    });
+
+</script>
+
+
+<script>
+    var active = '';
+    $(document).ready(function () {
+
+        $('button.s').on('click', function (e) {
+            
+            if (active != "") {
+                $('#' + active).toggleClass('h');
+
+            }
+            console.log("event: " + e.target.id);
+            $('#' + e.target.id + '_content').toggleClass('h');
+            console.log("now id:" + active)
+            active = e.target.id + '_content';
+
+        })
+    });
+
+</script>
+
 
 
 </body>

@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/payloveforward/dp339movie/4th/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dpcny/4th/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dpcny/3rd/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dp339movie/3rd/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dp339movie/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dpcny/2nd/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dp339movie/2nd/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dpcny/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dpcny/1st/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/dp339movie/1st/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/aboutus/intro/</loc>
     <lastmod>2017-12-26T14:03:01+08:00</lastmod>
   </url>
@@ -13,7 +53,21 @@
   </url>
   
   <url>
+    <loc>http://example.org/aboutus/</loc>
+    <lastmod>2017-12-26T14:03:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/coachtoserve/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/payloveforward/</loc>
     <priority>0</priority>
   </url>
   
@@ -26,11 +80,6 @@
     <loc>http://example.org/</loc>
     <lastmod>2017-12-26T14:03:01+08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/aboutus/</loc>
-    <lastmod>2017-12-26T14:03:01+08:00</lastmod>
   </url>
   
 </urlset>
