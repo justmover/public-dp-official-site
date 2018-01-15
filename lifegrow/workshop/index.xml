@@ -21,5 +21,14 @@
 This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file. This sample event showed the format of the md file.</description>
     </item>
     
+    <item>
+      <title>Focus</title>
+      <link>http://example.org/lifegrow/workshop/focus/</link>
+      <pubDate>Thu, 11 Jan 2018 17:54:06 +0000</pubDate>
+      
+      <guid>http://example.org/lifegrow/workshop/focus/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

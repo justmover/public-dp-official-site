@@ -228,9 +228,9 @@
     overflow-x: hidden;
 }
 .mobile-menu-title{
-    font-size:26px;
+    font-size: 21px;
     color: white;
-    padding: 2.5% 0;
+    padding: 3% 0;
     font-weight: bold;
 }
 .mobile-menu-text{
@@ -331,26 +331,30 @@
 
 .top-banner-words {
     position: absolute;
-    top: 6rem;
     left: 49%;
+    top: 50%;
+    transform: translateY(-50%);
     writing-mode: vertical-lr;
 }
 
 .top-banner-words-eng {
     position: absolute;
-    top: 8rem;
-    left: 38vw;
-    left: calc(50vw - 120px);
+    left: 50vw;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .top-banner-words-size {
+    text-align: center;
     font-size: 28px;
     color: white;
     text-shadow: 1.5px 1.5px black;
 }
 
 .course-content {
-    margin: 0% 35% 0%;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
 }
 
 .nopadding {
