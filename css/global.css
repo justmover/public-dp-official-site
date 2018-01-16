@@ -29,6 +29,9 @@
     text-align: center
 }
 
+.margin-top-bottom-15 {
+    margin: 15px 0px;
+}
 /* Style the buttons that are used to open the tab content */
 
 .tab button {
@@ -104,8 +107,18 @@
     -webkit-filter: brightness(1);
 }
 
+
+.navigation-container {
+    position: relative;
+
+}
+.navigation-padding-column {
+    padding: 0;
+}
+
+
 .text-overlay {
-    font-size: 1.5rem;
+    font-size: 14pt;
     position: absolute;
     top: 50%;
     /* position the top  edge of the element at the middle of the parent */
@@ -118,6 +131,33 @@
     width: 100%;
     text-align: center;
     opacity: 0.7;
+    white-space: pre;
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu .columns div.navigation-padding-column {
+        padding: 8px 0px!important;
+    }
+
+    .navigation-container {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        border-bottom: 0.5px rgb(109, 165, 138) solid;
+    }
+    .navigation-container .text-overlay {
+        font-size: 14pt;
+        position: static;
+        white-space: nowrap;
+        background: none;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 1408px) {
+
 }
 
 .carousel-indicators-style {
@@ -179,6 +219,7 @@
 }
 
 .course-flower h1.sub-title {
+    padding-top: 50px;
     font-weight: bold;
     color:#006738;
 }
@@ -236,8 +277,9 @@
 .mobile-menu-title{
     font-size: 21px;
     color: white;
-    padding: 3% 0;
+    padding: 0 30px;
     font-weight: bold;
+    white-space: pre;
 }
 .mobile-menu-text{
     font-size:20px;
@@ -358,14 +400,32 @@
     white-space: pre;
 }
 
+
+
 .course-content {
     width: 50%;
     text-align: left;
     margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    .course-content {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+    }
+}
+
 .nopadding {
     padding: 0%
+}
+
+.founder-intro-container {
+    position: relative; 
+    background-image:url(/img/bird_bg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .founder-column {
@@ -374,6 +434,22 @@
     width: 100%;
     transform: translate(0, -50%);
 }
+/* For founder page mobile responsive */
+@media screen and (max-width: 768px) {
+    .founder-column {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translate(0, 170%);
+    }
+
+    .founder-intro-container {
+        background-color: #174931;
+        background-image: none;
+    
+    }
+}
+
 .workshop-detail-button{
     margin:10% 0% 5% !important;
     padding:0% 20% !important;
@@ -519,42 +595,33 @@
 	height: 100%;
 }
 
-.vision-container {
-    position: relative;
-}
-.vision-container .logo {
-    position: absolute;
-    top: 15%;
-    z-index: 10;
-    left:20%;
+/* Vision style */
+.vision-container .background {
+    background-image: url('/img/bird_bg.jpg');
+    background-position-x: 50%;
+    padding: 30px;
 }
 
-.vision-container .slogan {
-    position: absolute;
-    top: 15%;
-    z-index: 10;
-    left:40%;
-    font-size: 25pt;
+.vision-container .slogan b{
+    line-height: 200%;
+    font-size: 20pt;
     text-align:justify;
     color:white;
+    
 }
-
-.vision-container .background {
-    background-color: #174931;
-}
-
 @media screen and (max-width: 768px) {
-
+    
+    .vision-container .background {
+        background-color: #174931;
+        background-image: none;
+    }
     .vision-container .logo {
         position: static;
         margin: 10px 0;
- 
     }
-
     .vision-container .slogan {
         position: static;
         text-align: center;
         font-size: 18pt;
     }
-
 }
