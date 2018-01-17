@@ -35,17 +35,6 @@ TTT 40: 2月24 早上10時至晚上10時 3月5、12、19 星期一晚上7時30�
     </item>
     
     <item>
-      <title>DP41</title>
-      <link>https://justmover.github.io/public-dp-official-site/course/timetable/dp41/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://justmover.github.io/public-dp-official-site/course/timetable/dp41/</guid>
-      <description>DP 41 2018年 4月28日星期六 早上10時至晚上10時 4月29日星期日 早上10時至晚上6時 5月5日星期六 下午2時至晚上10時 5月6日星期日 早上9時至晚上6時
-DAG 41 5月14日星期一 下午7時30至晚上10時 5月19日星期六早上10時至晚上10時 5月20日星期日 早上10時至晚上6時 5月28，6月4、11 星期一晚上7時30至10時30分
-TTT 41: 6月16 早上10時至晚上10時 6月25，7月2、9、16 星期一晚上7時30至10時30分。 7月30 星期一晚7時30至10時30分。</description>
-    </item>
-    
-    <item>
       <title>DP42</title>
       <link>https://justmover.github.io/public-dp-official-site/course/timetable/dp42/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -54,6 +43,17 @@ TTT 41: 6月16 早上10時至晚上10時 6月25，7月2、9、16 星期一晚上
       <description>DP 42: 9月1日星期六 早上10時至晚上10時 9月2日星期日 早上10時至晚上6時 9月8日星期六 下午2時至晚上10時 9月9日星期日 早上9時至晚上6時
 DAG 42: 9月17日星期一 下午7時30至晚上10時 9月22日星期六早上10時至晚上10時 9月23日星期日 早上10時至晚上6時 10月1、8、15 星期一晚上7時30至10時30分
 TTT 42: 10月20 早上10時至晚上10時 10月29，11月5、12 星期一晚上7時30至10時30分。 11月26星期一晚上7時30至10時30分</description>
+    </item>
+    
+    <item>
+      <title>DP41</title>
+      <link>https://justmover.github.io/public-dp-official-site/course/timetable/dp41/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://justmover.github.io/public-dp-official-site/course/timetable/dp41/</guid>
+      <description>DP 41 2018年 4月28日星期六 早上10時至晚上10時 4月29日星期日 早上10時至晚上6時 5月5日星期六 下午2時至晚上10時 5月6日星期日 早上9時至晚上6時
+DAG 41 5月14日星期一 下午7時30至晚上10時 5月19日星期六早上10時至晚上10時 5月20日星期日 早上10時至晚上6時 5月28，6月4、11 星期一晚上7時30至10時30分
+TTT 41: 6月16 早上10時至晚上10時 6月25，7月2、9、16 星期一晚上7時30至10時30分。 7月30 星期一晚7時30至10時30分。</description>
     </item>
     
     <item>
