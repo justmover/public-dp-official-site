@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://uat-dp.justmove.hk/lifegrow/workshop/sample-event/</loc>
-  </url>
-  
-  <url>
     <loc>https://uat-dp.justmove.hk/payloveforward/dp339movie/4th/</loc>
   </url>
   
@@ -104,6 +100,10 @@
   
   <url>
     <loc>https://uat-dp.justmove.hk/course/timetable/dp40/</loc>
+  </url>
+  
+  <url>
+    <loc>https://uat-dp.justmove.hk/lifegrow/workshop/sample-event/</loc>
   </url>
   
   <url>
