@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>電視節目 on 自在社</title>
-    <link>https://uat-dp.justmove.hk/media/tv/</link>
+    <link>http://www.dreamspossible.hk/media/tv/</link>
     <description>Recent content in 電視節目 on 自在社</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://uat-dp.justmove.hk/media/tv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.dreamspossible.hk/media/tv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>電視 - 商業電台雷霆881 - 「自在必得」</title>
-      <link>https://uat-dp.justmove.hk/media/tv/881/</link>
+      <link>http://www.dreamspossible.hk/media/tv/881/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uat-dp.justmove.hk/media/tv/881/</guid>
+      <guid>http://www.dreamspossible.hk/media/tv/881/</guid>
       <description></description>
     </item>
     
     <item>
       <title>電視 - 新城電台-自在多開心 采訪周華山博士</title>
-      <link>https://uat-dp.justmove.hk/media/tv/metroradio/</link>
+      <link>http://www.dreamspossible.hk/media/tv/metroradio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uat-dp.justmove.hk/media/tv/metroradio/</guid>
+      <guid>http://www.dreamspossible.hk/media/tv/metroradio/</guid>
       <description></description>
     </item>
     
