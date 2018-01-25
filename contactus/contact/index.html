@@ -867,7 +867,7 @@
     
     <main class="content" role="main" style="margin:0">
     
-<div class="top-banner-bg-aboutus">
+<div class="top-banner-bg-contact">
     <div class="top-banner-bg-pic">
     <img class="top-banner-white-bird" src="/img/white_bird.png">
     <div class="top-banner-words-eng">
@@ -1499,7 +1499,7 @@ src="https://www.google.com/maps/embed/v1/place?q=%E7%81%A3%E4%BB%94%E7%9A%87%E5
         $(".mobile-sub-menu").hide();
 
         $(".mobile-columns-toggle").click(function (e) {
-            var id = e.currentTarget.id 
+            var id = e.currentTarget.id
 
             $("#mobile-" + id + "-sub-menu").slideToggle("fast");
             $("#mobile-" + id + "-down").toggle();
@@ -1509,6 +1509,7 @@ src="https://www.google.com/maps/embed/v1/place?q=%E7%81%A3%E4%BB%94%E7%9A%87%E5
 
     });
     
+
 
 </script>
 
@@ -1544,7 +1545,7 @@ src="https://www.google.com/maps/embed/v1/place?q=%E7%81%A3%E4%BB%94%E7%9A%87%E5
 
             
             var img = $(this).children('div.columns').children('div.arrow-container').children('img')
-console.log(img)
+            console.log(img)
             
             $('img').not(img).removeClass('rotate');
 
@@ -1563,11 +1564,11 @@ console.log(img)
         active = $('.start-up-active')[0].id;
         $('#' + active).addClass('a')
         $('#' + active + '_content').toggleClass('h');
-        active = active ;
+        active = active;
         $('button.s').on('click', function (e) {
             if (active != "") {
-            
-                $('#' + active+ '_content').toggleClass('h');
+                
+                $('#' + active + '_content').toggleClass('h');
                 $('#' + active).removeClass('a')
             }
             console.log("event: " + e.target.id);

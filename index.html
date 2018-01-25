@@ -875,14 +875,18 @@
                 
                 <div class="carousel-item  active ">
                     <div style="width:100%">
-                        <img style="width:100%" class="d-block img-fluid" src="/uploads/2018/01/20/loopbanner1.jpg" alt="">
-                    </div>
+                        <a href="">
+                            <img style="width:100%" class="d-block img-fluid" src="/uploads/2018/01/20/loopbanner1.jpg" alt="">
+                        </a>
+                        </div>
                 </div>
                 
                 <div class="carousel-item ">
                     <div style="width:100%">
-                        <img style="width:100%" class="d-block img-fluid" src="/uploads/2018/01/20/1.home_loopbanner.jpg" alt="">
-                    </div>
+                        <a href="http://jockeyclubyrs.dreamspossible.hk">
+                            <img style="width:100%" class="d-block img-fluid" src="/uploads/2018/01/20/1.home_loopbanner.jpg" alt="">
+                        </a>
+                        </div>
                 </div>
                 
             </div>
@@ -1497,7 +1501,7 @@
         $(".mobile-sub-menu").hide();
 
         $(".mobile-columns-toggle").click(function (e) {
-            var id = e.currentTarget.id 
+            var id = e.currentTarget.id
 
             $("#mobile-" + id + "-sub-menu").slideToggle("fast");
             $("#mobile-" + id + "-down").toggle();
@@ -1507,6 +1511,7 @@
 
     });
     
+
 
 </script>
 
@@ -1542,7 +1547,7 @@
 
             
             var img = $(this).children('div.columns').children('div.arrow-container').children('img')
-console.log(img)
+            console.log(img)
             
             $('img').not(img).removeClass('rotate');
 
@@ -1561,11 +1566,11 @@ console.log(img)
         active = $('.start-up-active')[0].id;
         $('#' + active).addClass('a')
         $('#' + active + '_content').toggleClass('h');
-        active = active ;
+        active = active;
         $('button.s').on('click', function (e) {
             if (active != "") {
-            
-                $('#' + active+ '_content').toggleClass('h');
+                
+                $('#' + active + '_content').toggleClass('h');
                 $('#' + active).removeClass('a')
             }
             console.log("event: " + e.target.id);
