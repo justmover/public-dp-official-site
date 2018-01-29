@@ -48,18 +48,6 @@
   </url>
   
   <url>
-    <loc>http://www.dreamspossible.hk/media/tv/881/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.dreamspossible.hk/media/tv/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.dreamspossible.hk/coachtoserve/coachtoserve/</loc>
-  </url>
-  
-  <url>
     <loc>http://www.dreamspossible.hk/payloveforward/dpcny/</loc>
   </url>
   
@@ -76,7 +64,13 @@
   </url>
   
   <url>
-    <loc>http://www.dreamspossible.hk/media/tv/metroradio/</loc>
+    <loc>http://www.dreamspossible.hk/media/tv/881/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dreamspossible.hk/media/tv/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -122,6 +116,21 @@
   </url>
   
   <url>
+    <loc>http://www.dreamspossible.hk/coachtoserve/coachtoserve/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dreamspossible.hk/contactus/contact/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dreamspossible.hk/media/tv/metroradio/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.dreamspossible.hk/lifegrow/workshop/</loc>
     <lastmod>2017-12-26T14:45:52+08:00</lastmod>
   </url>
@@ -161,11 +170,13 @@
   
   <url>
     <loc>http://www.dreamspossible.hk/coachtoserve/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.dreamspossible.hk/contactus/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -224,12 +235,8 @@
   </url>
   
   <url>
-    <loc>http://www.dreamspossible.hk/contactus/contact/</loc>
-  </url>
-  
-  <url>
     <loc>http://www.dreamspossible.hk/</loc>
-    <lastmod>2017-12-26T14:41:53+08:00</lastmod>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
