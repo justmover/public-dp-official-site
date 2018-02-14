@@ -1490,32 +1490,6 @@
 
 
 <script>
-    var action = 'click';
-    var speed = "500";
-    $(document).ready(function () {
-
-        $('li.q').on(action, function () {
-
-            $(this).next().slideToggle(speed)
-
-
-                .siblings('li.a').slideUp();
-
-            
-            var img = $(this).children('div.columns').children('div.arrow-container').children('img')
-            console.log(img)
-            
-            $('img').not(img).removeClass('rotate');
-
-            
-            img.toggleClass('rotate');
-        });
-    });
-
-</script>
-
-
-<script>
     var active = '';
     $(document).ready(function () {
 
