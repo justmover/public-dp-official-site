@@ -920,14 +920,83 @@
         <h2 class="bold content-title">/Lifegrows/</h2> 
     </section> 
 </header>
-
+<div class="column is-hidden-tablet">
+        <div class="tabs is-small is-centered" style="display: unset; white-space: unset;">
+            <ul>
+                <li class="is-paddingless workshop-mobile-menu-status" id="upcoming"><a class="workshop-mobile-menu-upcoming-title">進行中</a></li>
+                <li class="is-paddingless workshop-mobile-menu-status" id="ended"><a class="workshop-mobile-menu-ended-title">已完結</a></li>
+                <li class="is-paddingless workshop-mobile-menu-status" id="deadline"><a class="workshop-mobile-menu-deadline-title">已截止</a></li>
+                <li class="is-paddingless workshop-mobile-menu-status" id="full"><a class="workshop-mobile-menu-full-title">已滿額</a></li>
+            </ul>
+        </div>
+    </div>
 <div class="container" style="padding: 0 50px 50px 50px;">
-    <div class="columns is-multiline">
+    <div class="columns">
+        <div class="column is-narrow workshop-menu-container is-hidden-mobile">
+            <div class="border-grey" style="width: 200px; padding: 3%;">
+                
+            </div>
+        </div>
         
-
+        <div class="columns is-multiline">
+            
+        </div>
     </div>
 </div>
 
+
+<script>
+    $(document).ready(function () {
+        var activeId = "upcoming";
+        var statusList = ["upcoming", "deadline", "ended", "full"];
+        var isCounted = false;
+        filterWorkShopByStatus(activeId);
+    
+        $(".workshop-menu-status").click(function(e){
+            if(activeId) {
+                toggleClass(activeId);
+                filterWorkShopByStatus(activeId);
+            }
+            activeId = e.currentTarget.id;
+            toggleClass(activeId);
+            filterWorkShopByStatus(activeId);
+        });
+        
+        $(".workshop-mobile-menu-status").click(function(e){
+            if(activeId) {
+                filterWorkShopByStatus(activeId);
+            }
+            activeId = e.currentTarget.id;
+            filterWorkShopByStatus(activeId);
+        });
+
+        function toggleClass(activeId) {
+            $(".workshop-menu-" + activeId).toggle();
+            $(".workshop-menu-" + activeId + "-plus").toggle();
+            $(".workshop-menu-" + activeId + "-minus").toggle();
+        }
+
+        function filterWorkShopByStatus(activeId) {
+            for(var i = 0; i <statusList.length;i++) {
+                if(statusList[i] == activeId) {
+                    $("div").filter(".workshop-" + statusList[i]).toggleClass("show-element");
+                } else {
+                    $("div").filter(".workshop-" + statusList[i]).toggleClass("hidden-element");
+                }
+                if(!isCounted) {
+                    var statusLength = $("div").filter(".workshop-" + statusList[i]).length;
+                    $(".workshop-menu-" + statusList[i] + "-title").append("(" + statusLength + ")" );
+                    $(".workshop-mobile-menu-"+ statusList[i] + "-title").append("(" + statusLength + ")" );
+                    if(statusLength == 0) {
+                        $(".workshop-menu-status#" + statusList[i]).hide();
+                        $(".workshop-mobile-menu-status#" + statusList[i]).hide();
+                    }
+                }
+            }
+            isCounted = true;
+        };
+    });
+</script> 
 
     </main>
 
