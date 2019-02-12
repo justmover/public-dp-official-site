@@ -137,6 +137,11 @@
   </url>
   
   <url>
+    <loc>http://www.dreamspossible.hk/jockeyclubyrs/jockeyclubyrs/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.dreamspossible.hk/contactus/contact/</loc>
     <lastmod>2017-12-31T16:00:00+00:00</lastmod>
   </url>
@@ -195,6 +200,12 @@
   
   <url>
     <loc>http://www.dreamspossible.hk/aboutus/team/dr_red_chan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.dreamspossible.hk/jockeyclubyrs/</loc>
+    <lastmod>2017-12-31T16:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
